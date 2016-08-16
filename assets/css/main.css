@@ -2424,7 +2424,7 @@
 	}
 
 		.image img {
-			border-radius: 8px;
+			border-radius: 2px;
 			display: block;
 		}
 
@@ -3030,14 +3030,13 @@
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
+			border-radius: 10%;
 			border: solid 1px;
 		}
 
 			.spotlight .image img {
-				display: block;
-				border-radius: 100%;
-				width: 16em;
+				display: inline;
+				height:55px;
 			}
 
 		@media screen and (max-width: 980px) {
