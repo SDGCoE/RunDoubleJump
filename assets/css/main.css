@@ -1624,10 +1624,10 @@
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #031333 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #031333 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #031333 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #031333 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2424,7 +2424,7 @@
 	}
 
 		.image img {
-			border-radius: 8px;
+			border-radius: 2px;
 			display: block;
 		}
 
@@ -3030,14 +3030,13 @@
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
+			border-radius: 10%;
 			border: solid 1px;
 		}
 
 			.spotlight .image img {
-				display: block;
-				border-radius: 100%;
-				width: 16em;
+				display: inline;
+				height:55px;
 			}
 
 		@media screen and (max-width: 980px) {
