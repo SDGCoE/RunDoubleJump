@@ -1,4 +1,5 @@
 @import url(font-awesome.min.css);
+@import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
 
 /*
@@ -3798,3 +3799,19 @@
 			}
 
 		}
+/* Winners css */
+.winnersimg{
+    max-width: 280px;
+    max-height: 50%;
+    border-radius: 3px;
+    border-color:#efa8b0;
+    border: solid #efa8b0 3px;
+}
+.winnertext{
+    text-align: left;
+    background-color:#efa8b0;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+}
